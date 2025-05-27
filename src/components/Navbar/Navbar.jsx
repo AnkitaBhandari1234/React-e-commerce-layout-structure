@@ -5,6 +5,40 @@ import { IoMdCart } from "react-icons/io";
 import Darkmode from "./Darkmode";
 
 const Navbar = () => {
+
+  const navmenu=[
+    {
+      id:1,
+      title:'Home',
+      path:'/',
+    },
+     {
+      id:2,
+      title:'top rated',
+      path:'/toprated',
+    },
+    {
+      id:3,
+      title:'Kids wear',
+      path:'/kidswear',
+    },
+    {
+      id:4,
+      title:'mens wear',
+      path:'/menswear',
+    },
+    {
+      id:5,
+      title:'electronics',
+      path:'/electronics',
+    },
+    {
+      id:6,
+      title:'trending products',
+      path:'/',
+    },
+   
+  ]
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40 ">
       {/* Upper Navbar */}
@@ -46,7 +80,22 @@ const Navbar = () => {
       </div>
 
       {/* Lower Navbar */}
-      <div>Lower navbar</div>
+      <div className="">
+        
+        <ul className="flex justify-center items-center">
+          
+          {
+            navmenu.map((val,i)=>{
+
+             <li key={val.id}>
+              <a href={val.path}>{val.title}</a>
+            
+             </li>
+            })
+          }
+
+          </ul>
+      </div>
     </div>
   );
 };
