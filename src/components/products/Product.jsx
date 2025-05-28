@@ -65,8 +65,8 @@ const Product = () => {
           </p>
         </div>
         {/* Body Section */}
-        <div>
-          <div className="grid grid-cols-5 items-center gap-5">
+        <div className=" ">
+          <div className="grid grid-cols-5 items-center justify-center gap-16  ">
             {/* Card Section */}
             {productcard.map((val, i) => {
               return <div data-aos="fade-up"
