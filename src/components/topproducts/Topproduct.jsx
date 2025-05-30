@@ -30,7 +30,7 @@ const Topproduct = () => {
   ];
   return (
     <div>
-      <div className="container h-[500px] ">
+      <div className="container  ">
         {/* header section */}
         <div className=" mb-24 ">
           <p data-aos="fade-up" className="text-sm text-primary ">
