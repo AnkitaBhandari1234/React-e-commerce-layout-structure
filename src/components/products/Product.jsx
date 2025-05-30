@@ -50,7 +50,7 @@ const Product = () => {
     },
   ];
   return (
-    <div className=" mt-14 mb-12">
+    <div className=" mt-14 mb-12 ">
       <div className="container">
         {/* Header Section */}
         <div className="text-center max-w-[600px] mb-10 mx-auto">
@@ -58,7 +58,7 @@ const Product = () => {
             
             Top Sellings Products for You
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">Products</h1>
+          <h1 data-aos="fade-up" className="text-3xl font-bold dark:text-white">Products</h1>
           <p data-aos='fade-up' className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem corporis Lorem, ipsum dolor. .
@@ -77,11 +77,11 @@ const Product = () => {
                     className="h-[220px] w-[150px] object-cover rounded-md"/>
                     <div>
                         
-                    <h1 className="font-semibold">{val.name}</h1>
+                    <h1 className="mt-3 font-semibold dark:text-white">{val.name}</h1>
                     <p className="text-sm text-gray-400 ">{val.color}</p>
                     <div className=" flex items-center gap-1">
                         <TiStarFullOutline  className="text-yellow-400"/>
-                        <span>{val.rating}</span>
+                        <span className="dark:text-white">{val.rating}</span>
 
 
                         </div>
