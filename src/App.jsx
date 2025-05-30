@@ -8,6 +8,9 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import Topproduct from './components/topproducts/Topproduct';
 import Banner from './components/banner/Banner';
+import Subscribe from './components/subscribe/Subscribe';
+import Testimonial from './components/testimonial/Testimonial';
+import Footer from './components/footer/Footer';
 
 function App() {
   useEffect(() => {
@@ -31,6 +34,10 @@ function App() {
       <Product/>
       <Topproduct/>
       <Banner/>
+      <Subscribe/>
+      <Product/>
+      <Testimonial/>
+      <Footer/>
     </div>
     </>
   )
