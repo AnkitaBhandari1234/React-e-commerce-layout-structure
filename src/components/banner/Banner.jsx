@@ -19,10 +19,10 @@ const Banner = () => {
           {/* text details section */}
 
           <div className="flex flex-col gap-6 justify-start  h-full">
-            <h1 className="text-3xl font-bold">Winter Sale upto 50% Off</h1>
+            <h1 className="text-3xl font-bold dark:text-white">Winter Sale upto 50% Off</h1>
             <p className="text-gray-500 text-sm tracking-wide leading-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio</p>
-            <div className="flex flex-col gap-5">
-                <div data-aos='fade-up' className="flex items-center gap-3">
+            <div className="flex flex-col gap-5 dark:text-white">
+                <div data-aos='fade-up' className="flex items-center gap-3 ">
                  <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-700" />
                  <p>Quality Products</p>
                 </div>

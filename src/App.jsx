@@ -28,7 +28,7 @@ function App() {
   return (
     <>
     
-    <div className='dark:bg-[#111827]'>
+    <div className=' bg-white dark:bg-[#111827] duration-300'>
       <Navbar/>
       <Hero/>
       <Product/>

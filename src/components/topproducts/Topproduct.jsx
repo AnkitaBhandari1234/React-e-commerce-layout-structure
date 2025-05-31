@@ -69,7 +69,7 @@ const Topproduct = () => {
                   
 
                     </div>
-                    <h1 className="text-xl font-bold">{val.title}</h1>
+                    <h1 className="text-xl font-bold dark:text-white">{val.title}</h1>
                     <p className="text-sm text-gray-400 group-hover:text-white duration-300 line-clamp-2">{val.description}</p>
                     <button className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full group-hover:bg-white group-hover:text-primary mt-4">
                                Order Now
